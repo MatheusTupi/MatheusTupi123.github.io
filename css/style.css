@@ -1,0 +1,92 @@
+.banner {
+    background-color: #065291;
+    color: #FFF;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #1976D2;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0D47A1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #9fd0f3;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.card h4 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #1565C0;
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.links a {
+    color: #FFF;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.links a:hover {
+    color: #BBDEFB;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    color: #065291;
+}
